@@ -1,0 +1,27 @@
+From: IT Support <attacker-malicious-server@gmail.com>
+To: employee@decodelabs.tech
+Subject: ACTION REQUIRED: Security Alert - Account Suspended
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary_cool_test"
+
+--boundary_cool_test
+Content-Type: text/plain; charset="utf-8"
+
+Dear Employee,
+
+We detected unauthorized login attempts to your corporate account. Your access has been temporarily suspended for security reasons.
+
+You are required to verify your password immediately to restore access. Please click here to resolve this issue:
+https://login.decodelabs.tech.scam-website-alert.com/verify
+
+If you do not take action within 24 hours, your account will be permanently deleted.
+
+Best regards,
+IT Department
+
+--boundary_cool_test
+Content-Type: application/octet-stream; name="security_update_patch.exe"
+Content-Disposition: attachment; filename="security_update_patch.exe"
+
+[binary data simulation]
+--boundary_cool_test--
