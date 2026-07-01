@@ -1,0 +1,23 @@
+# Analyze a log file (runs both phases)
+python log_analyzer.py -p /var/log/auth.log
+
+# With Windows path (use quotes)
+python log_analyzer.py -p "C:\Users\Admin\logs\app.log"
+
+# Skip the critical word filter (only extract IPs)
+python log_analyzer.py -p /var/log/syslog --skip-filter
+
+# Skip IP extraction (only filter critical words)
+python log_analyzer.py -p /var/log/nginx/access.log --skip-ip
+
+# Specify custom output directory
+python log_analyzer.py -p /var/log/auth.log --output-dir ~/reports
+
+# Enable verbose mode for debugging
+python log_analyzer.py -p /var/log/auth.log -v
+
+# Combine options
+python log_analyzer.py -p /var/log/security.log --skip-filter --output-dir ./analysis -v
+
+#help
+python log_analyzer.py -h

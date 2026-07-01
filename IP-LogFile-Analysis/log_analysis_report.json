@@ -1,0 +1,32 @@
+{
+    "summary": {
+        "total_extracted": 5,
+        "unique_ips": 4
+    },
+    "ips": [
+        {
+            "ip": "8.8.8.8",
+            "type": "Public",
+            "count": 2,
+            "status": "Normal"
+        },
+        {
+            "ip": "192.168.1.1",
+            "type": "Private",
+            "count": 1,
+            "status": "Safe"
+        },
+        {
+            "ip": "10.0.0.5",
+            "type": "Private",
+            "count": 1,
+            "status": "Safe"
+        },
+        {
+            "ip": "127.0.0.1",
+            "type": "Private",
+            "count": 1,
+            "status": "Safe"
+        }
+    ]
+}

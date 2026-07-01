@@ -1,0 +1,4 @@
+192.168.1.1 - - [29/Jun/2026] ERROR Connection failed
+10.0.0.5 - - [29/Jun/2026] WARNING High memory usage
+8.8.8.8 - - [29/Jun/2026] CRITICAL Unauthorized access attempt
+8.8.8.8 - - [29/Jun/2026] CRITICAL Another attack
